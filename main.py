@@ -28,8 +28,8 @@ print(f"Grade point for course 1 is: {gradep1}")
 #----------------------------------------- end of gradepoint1/course1
 
 gradep2=0
-g2=input("Enter your course 2 letter grade:")
-c2=input("Enter your course 2 credit")
+g2=input("Enter your course 2 letter grade: ")
+c2=input("Enter your course 2 credit: ")
 if(g2=="A"):
   gradep2=4.0
 elif(g2=="A-"):
@@ -54,7 +54,7 @@ print(f"Grade point for course 2 is {gradep2}")
 
 gradep3=0
 g3=input("Enter your course 3 letter grade: ")
-c3=input("Enter your course 3 credit")
+c3=input("Enter your course 3 credit: ")
 if(g3=="A"):
   gradep3=4.0
 elif(g3=="A-"):
