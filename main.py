@@ -80,6 +80,6 @@ print(f"Grade point for course 3 is {gradep3}")
 
 
 #final calculation
-final=((gradep1*float(c1))+(gradep2*float(c2))+(gradep3*float(c3)))/(c1+c2+c3)
+final=((gradep1*float(c1))+(gradep2*float(c2))+(gradep3*float(c3)))/(float(c1)+float(c2)+float(c3))
 
 print(f"Your GPA is: {final}")
