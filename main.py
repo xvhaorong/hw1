@@ -73,7 +73,7 @@ elif(g3=="D"):
   gradep3=1.0
 else:
   gradep3=0.0
-print(f"Grade point for course 3 is {gradep3}")
+print(f"Grade point for course 3 is: {gradep3}")
 
 #----------------------------------------- end of gradepoint3/course3
 
